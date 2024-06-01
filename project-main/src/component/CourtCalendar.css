@@ -1,0 +1,93 @@
+/* CourtCalendar.css */
+
+/* Container for the entire calendar */
+.court-calendar {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+    max-width: 100%;
+    margin: 0 auto;
+    height: 70vh;
+  }
+  
+  /* Heading styles */
+  .court-calendar h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  /* Styles for the event input form */
+  .schedule-event {
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Form field styles */
+  .form-field {
+    margin-bottom: 15px;
+  }
+  
+  .form-field label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #333;
+  }
+  
+  .form-field input[type="text"],
+  .form-field input[type="date"] {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    font-size: 16px;
+  }
+  
+  /* Submit button style */
+  .schedule-event button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .schedule-event button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Styles for upcoming events list */
+  .upcoming-events {
+    margin-top: 20px;
+  }
+  
+  .upcoming-events h3 {
+    font-size: 20px;
+    color: #333;
+  }
+  
+  .upcoming-events ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .upcoming-events li {
+    font-size: 16px;
+    margin-bottom: 5px;
+    color: #333;
+  }
+  
+  /* No events message style */
+  .upcoming-events p {
+    color: #777;
+  }
+  
